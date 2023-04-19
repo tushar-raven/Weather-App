@@ -60,6 +60,7 @@ async function getWeatherData(query) {
     tempElement.textContent = `${tempC} °C`;
     feelsLikeElement.textContent = `Feels Like: ${feelsLikeC} °C`;
 
+    unitChange.disabled = false;
     unitChange.addEventListener("click", () => {
       tempUnit = tempUnit === "c" ? "f" : "c";
       changeUnit(
@@ -93,6 +94,8 @@ async function getWeatherData(query) {
     feelsLikeElement.textContent = "";
     airQualityElement.textContent = "";
     humidityElement.textContent = "";
+
+    unitChange.disabled = true;
   }
 }
 
