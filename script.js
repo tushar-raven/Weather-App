@@ -87,7 +87,7 @@ async function getWeatherData(query) {
   } catch {
     locationElement.textContent = "NO SUCH CITY EXIST";
     iconElement.src = "./image/logo.png";
-    conditionElement.textContent = "Try Again";
+    conditionElement.textContent = "Search Again";
 
     countryElement.textContent = "";
     tempElement.textContent = "";
