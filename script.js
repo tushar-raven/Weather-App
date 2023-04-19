@@ -86,7 +86,7 @@ async function getWeatherData(query) {
     humidityElement.textContent = `Humidity: ${humidity}`;
   } catch {
     locationElement.textContent = "NO SUCH CITY EXIST";
-    iconElement.src = "/image/logo.png";
+    iconElement.src = "./image/logo.png";
     conditionElement.textContent = "Try Again";
 
     countryElement.textContent = "";
