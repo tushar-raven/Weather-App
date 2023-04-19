@@ -8,5 +8,34 @@
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <img class="logo" src="/image/logo.png" alt="" />
+      <form class="search-form">
+        <input class="input" type="text" />
+        <button class="search">Search</button>
+      </form>
+      <button class="unit-change">°C/°F</button>
+    </header>
+    <main>
+      <div class="weather-card">
+        <div id="loading-indicator">Loading...</div>
+
+        <div class="place">
+          <p class="location"></p>
+          <p class="country"></p>
+        </div>
+
+        <div class="weather">
+          <img class="icon" />
+          <p class="temp"></p>
+        </div>
+
+        <p class="condition"></p>
+        <p class="humidity"></p>
+        <p class="air-quality"></p>
+        <p class="feels-like"></p>
+      </div>
+    </main>
+  </body>
 </html>
