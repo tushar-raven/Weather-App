@@ -4,5 +4,5 @@ An app to check the weather around the world created using HTML, CSS, and Vanill
 
 In this project, I used weather API and Pixabay API to show the real-time weather of any location just by searching that location. You can also switch the values from °c and °f.
 
-[Live Demo](https://tusharravenclaw.github.io/Weather-App/)👈
+[Live Demo](https://tushar-raven.github.io/Weather-App/)👈
 
